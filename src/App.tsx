@@ -1,0 +1,19 @@
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Admin } from "./pages/Admin";
+import { Navbar } from "./components/Navbar";
+
+const App: React.FC = () => {
+  return (
+    <div style={{minHeight:"100vh"}}>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/admin" element={<Admin />} />
+      </Routes>
+    </div>
+  );
+};
+
+export default App;
