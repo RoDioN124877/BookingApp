@@ -1,4 +1,4 @@
-import React from "react";
+// ...existing code...
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Admin } from "./pages/Admin";
@@ -19,3 +19,4 @@ function App() {
 }
 
 export default App;
+// ...existing code...
