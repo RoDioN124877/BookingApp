@@ -67,4 +67,3 @@ export const VenueCard: React.FC<Props> = ({ venue }) => {
   );
 };
 
-export default VenueCard;

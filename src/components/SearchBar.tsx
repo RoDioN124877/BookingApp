@@ -31,4 +31,3 @@ export const SearchBar: React.FC<Props> = ({ query, setQuery }) => {
     </div>
   );
 };
-export default SearchBar;
