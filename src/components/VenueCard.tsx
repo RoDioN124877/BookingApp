@@ -47,6 +47,7 @@ export const VenueCard: React.FC<Props> = ({ venue }) => {
               title={`Забронировать столик в ${venue.name}`}
             >
               {/* простая иконка календаря (svg) */}
+              {/* простая иконка календаря (svg) */}
               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path d="M7 10h5" stroke="#02110d" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
                 <rect x="3" y="4" width="18" height="16" rx="2" stroke="#02110d" strokeWidth="1.6" />
