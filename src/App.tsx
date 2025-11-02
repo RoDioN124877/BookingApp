@@ -3,17 +3,19 @@ import { Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Admin } from "./pages/Admin";
 import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 
-const App: React.FC = () => {
+function App() {
   return (
-    <div style={{minHeight:"100vh"}}>
+    <div style={{ minHeight: "100vh" }}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>
+      <Footer />
     </div>
   );
-};
+}
 
 export default App;
